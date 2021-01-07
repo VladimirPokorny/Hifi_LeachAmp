@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name LeachAmp_library)(type KiCad)(uri ${KIPRJMOD}/LeachAmp_library.pretty)(options "")(descr ""))
+  (lib (name Fuse_Holders_and_Fuses)(type KiCad)(uri ${KIPRJMOD}/Fuse_Holders_and_Fuses.pretty)(options "")(descr ""))
+)
