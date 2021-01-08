@@ -18,7 +18,7 @@ L Device:R R1
 U 1 1 5FDB6B63
 P 1850 4250
 F 0 "R1" H 1920 4296 50  0000 L CNN
-F 1 "20k" H 1920 4205 50  0000 L CNN
+F 1 "22k" H 1920 4205 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1780 4250 50  0001 C CNN
 F 3 "~" H 1850 4250 50  0001 C CNN
 	1    1850 4250
@@ -29,7 +29,7 @@ L Device:R R2
 U 1 1 5FDB8F96
 P 2100 3950
 F 0 "R2" V 2307 3950 50  0000 C CNN
-F 1 "2k" V 2216 3950 50  0000 C CNN
+F 1 "2k2" V 2216 3950 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2030 3950 50  0001 C CNN
 F 3 "~" H 2100 3950 50  0001 C CNN
 	1    2100 3950
@@ -532,17 +532,6 @@ F 3 "~" H 5200 3600 50  0001 C CNN
 	1    5200 3600
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:R R26
-U 1 1 5FE83F19
-P 5450 4150
-F 0 "R26" H 5380 4104 50  0000 R CNN
-F 1 "1k" H 5380 4195 50  0000 R CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5380 4150 50  0001 C CNN
-F 3 "~" H 5450 4150 50  0001 C CNN
-	1    5450 4150
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	4900 3650 4900 3350
 Wire Wire Line
@@ -555,23 +544,15 @@ Wire Wire Line
 $Comp
 L Device:R R25
 U 1 1 5FE8C359
-P 5750 3700
-F 0 "R25" V 5850 3700 50  0000 C CNN
-F 1 "1k" V 5650 3700 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5680 3700 50  0001 C CNN
-F 3 "~" H 5750 3700 50  0001 C CNN
-	1    5750 3700
-	0    -1   -1   0   
+P 5450 4100
+F 0 "R25" V 5550 4100 50  0000 C CNN
+F 1 "8k2" V 5350 4100 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5380 4100 50  0001 C CNN
+F 3 "~" H 5450 4100 50  0001 C CNN
+	1    5450 4100
+	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	5950 3100 5950 3700
-Wire Wire Line
-	5950 3700 5900 3700
 Connection ~ 5950 3100
-Text GLabel 5550 3700 0    50   Input ~ 0
-A
-Wire Wire Line
-	5550 3700 5600 3700
 $Comp
 L power:GNDS #PWR012
 U 1 1 5FE91748
@@ -585,16 +566,12 @@ F 3 "" H 5200 3800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5200 3800 5200 3750
-Text GLabel 5450 3950 1    50   Input ~ 0
-B
-Wire Wire Line
-	5450 4000 5450 3950
 $Comp
 L Transistor_BJT:MPSA42 Q7
 U 1 1 5FE9C58A
 P 5850 4400
 F 0 "Q7" V 5800 4200 50  0000 L CNN
-F 1 "MPSA06" V 6050 4200 50  0000 L CNN
+F 1 "BD139" V 6050 4200 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 6050 4325 50  0001 L CIN
 F 3 "http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF" H 5850 4400 50  0001 L CNN
 	1    5850 4400
@@ -616,9 +593,6 @@ Wire Wire Line
 Wire Wire Line
 	6250 4150 5950 4150
 Wire Wire Line
-	5950 4150 5950 3700
-Connection ~ 5950 3700
-Wire Wire Line
 	5950 4200 5950 4150
 Connection ~ 5950 4150
 Wire Wire Line
@@ -631,19 +605,16 @@ Wire Wire Line
 	5450 4500 5450 4400
 Wire Wire Line
 	5650 4400 5450 4400
-Connection ~ 5450 4400
-Wire Wire Line
-	5450 4400 5450 4300
 $Comp
 L Device:R R27
 U 1 1 5FEAE962
-P 5750 4900
-F 0 "R27" V 5650 4900 50  0000 C CNN
-F 1 "1k2" V 5850 4900 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5680 4900 50  0001 C CNN
-F 3 "~" H 5750 4900 50  0001 C CNN
-	1    5750 4900
-	0    1    1    0   
+P 5450 4650
+F 0 "R27" V 5350 4650 50  0000 C CNN
+F 1 "1k2" V 5550 4650 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5380 4650 50  0001 C CNN
+F 3 "~" H 5450 4650 50  0001 C CNN
+	1    5450 4650
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R28
@@ -665,13 +636,6 @@ Wire Wire Line
 	5600 4900 5450 4900
 Wire Wire Line
 	5450 4900 5450 4800
-Wire Wire Line
-	5300 4650 5250 4650
-Wire Wire Line
-	5250 4650 5250 4900
-Wire Wire Line
-	5250 4900 5450 4900
-Connection ~ 5450 4900
 Wire Wire Line
 	5150 5150 5150 4150
 Wire Wire Line
@@ -1178,8 +1142,8 @@ L Transistor_BJT:MPSA92 Q15
 U 1 1 5FE92B38
 P 8700 5600
 F 0 "Q15" H 8450 5650 50  0000 L CNN
-F 1 "2N5416" H 8300 5750 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 8900 5525 50  0001 L CIN
+F 1 "BF470" H 8300 5750 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-126-3_Horizontal_TabDown" H 8900 5525 50  0001 L CIN
 F 3 "http://www.onsemi.com/pub_link/Collateral/MPSA92-D.PDF" H 8700 5600 50  0001 L CNN
 	1    8700 5600
 	1    0    0    1   
@@ -1211,8 +1175,8 @@ L Transistor_BJT:MPSA42 Q14
 U 1 1 5FEAFD83
 P 8700 3100
 F 0 "Q14" H 8450 3350 50  0000 L CNN
-F 1 "2N3439" H 8350 3250 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 8900 3025 50  0001 L CIN
+F 1 "BF469" H 8350 3250 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-126-3_Horizontal_TabDown" H 8900 3025 50  0001 L CIN
 F 3 "http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF" H 8700 3100 50  0001 L CNN
 	1    8700 3100
 	1    0    0    -1  
@@ -2053,94 +2017,23 @@ Wire Wire Line
 	12450 1950 12450 1850
 Wire Wire Line
 	12450 1550 12450 1450
-$Comp
-L Connector:Conn_01x04_Male J1
-U 1 1 609D7614
-P 14550 1650
-F 0 "J1" H 14612 1794 50  0000 L CNN
-F 1 "Conn_01x04_Male" V 14703 1794 50  0000 L CNN
-F 2 "Connector_Wago:Wago_734-164_1x04_P3.50mm_Horizontal" H 14550 1650 50  0001 C CNN
-F 3 "~" H 14550 1650 50  0001 C CNN
-	1    14550 1650
-	-1   0    0    1   
-$EndComp
-Text GLabel 14200 2750 0    50   Input ~ 0
+Text GLabel 14450 4550 0    50   Input ~ 0
 out
 Text GLabel 13100 1450 2    50   Input ~ 0
 +VCC
 Text GLabel 13300 7150 2    50   Input ~ 0
 -VCC
-Text GLabel 14200 1750 0    50   Input ~ 0
-+VCC
-Text GLabel 14200 1550 0    50   Input ~ 0
--VCC
-$Comp
-L power:GND #PWR0101
-U 1 1 60A53ED5
-P 13850 1650
-F 0 "#PWR0101" H 13850 1400 50  0001 C CNN
-F 1 "GND" H 13855 1477 50  0000 C CNN
-F 2 "" H 13850 1650 50  0001 C CNN
-F 3 "" H 13850 1650 50  0001 C CNN
-	1    13850 1650
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	14350 1650 13850 1650
-Wire Wire Line
-	14350 1750 14200 1750
-Wire Wire Line
-	14200 1550 14350 1550
-$Comp
-L Connector:Conn_01x02_Male J2
-U 1 1 60B4308F
-P 14550 2750
-F 0 "J2" H 14522 2632 50  0000 R CNN
-F 1 "Conn_01x02_Male" H 14522 2723 50  0000 R CNN
-F 2 "Connector_Wago:Wago_734-162_1x02_P3.50mm_Horizontal" H 14550 2750 50  0001 C CNN
-F 3 "~" H 14550 2750 50  0001 C CNN
-	1    14550 2750
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR0102
-U 1 1 60B5CBF0
-P 14000 2650
-F 0 "#PWR0102" H 14000 2400 50  0001 C CNN
-F 1 "GND" H 14005 2477 50  0000 C CNN
-F 2 "" H 14000 2650 50  0001 C CNN
-F 3 "" H 14000 2650 50  0001 C CNN
-	1    14000 2650
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	14350 2650 14000 2650
-Wire Wire Line
-	14200 2750 14350 2750
 $Comp
 L Device:R_POT_TRIM RV1
 U 1 1 5FEAFA65
-P 5450 4650
-F 0 "RV1" H 5380 4604 50  0000 R CNN
-F 1 "2k" H 5380 4695 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_Bourns_3266W_Vertical" H 5450 4650 50  0001 C CNN
-F 3 "~" H 5450 4650 50  0001 C CNN
-	1    5450 4650
-	-1   0    0    1   
+P 5750 4900
+F 0 "RV1" H 5680 4854 50  0000 R CNN
+F 1 "2k" H 5680 4945 50  0000 R CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_3266W_Vertical" H 5750 4900 50  0001 C CNN
+F 3 "~" H 5750 4900 50  0001 C CNN
+	1    5750 4900
+	0    -1   -1   0   
 $EndComp
-$Comp
-L Leach_lib:NJL3281D Q18
-U 1 1 60175C77
-P 10350 3100
-F 0 "Q18" H 10150 3400 50  0000 L CNN
-F 1 "NJL3281D" H 9950 3300 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-264-5_Horizontal_TabDown" H 10600 2100 50  0001 C CNN
-F 3 "" H 10150 2350 50  0001 C CNN
-	1    10350 3100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9950 3100 10150 3100
 $Comp
 L Leach_lib:NJL3281D Q18
 U 2 1 601DC0BD
@@ -2152,19 +2045,6 @@ F 3 "" H 8400 1200 50  0001 C CNN
 	2    8550 1000
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Leach_lib:NJL3281D Q20
-U 1 1 601DE7BA
-P 11250 3100
-F 0 "Q20" H 11050 3400 50  0000 L CNN
-F 1 "NJL3281D" H 10850 3300 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-264-5_Horizontal_TabDown" H 11500 2100 50  0001 C CNN
-F 3 "" H 11050 2350 50  0001 C CNN
-	1    11250 3100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10650 3100 11050 3100
 $Comp
 L Leach_lib:NJL3281D Q20
 U 2 1 6021024D
@@ -2186,32 +2066,6 @@ Wire Wire Line
 	8700 1000 8900 1000
 Wire Wire Line
 	10100 1000 10400 1000
-$Comp
-L Leach_lib:NJL1302D Q19
-U 1 1 6028D1E7
-P 10350 5600
-F 0 "Q19" H 10050 5800 50  0000 L CNN
-F 1 "NJL1302D" H 9850 5700 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-264-5_Horizontal_TabDown" H 10200 6000 50  0001 C CNN
-F 3 "" H 10200 6000 50  0001 C CNN
-	1    10350 5600
-	1    0    0    1   
-$EndComp
-Wire Wire Line
-	9900 5600 10150 5600
-$Comp
-L Leach_lib:NJL1302D Q21
-U 1 1 602A7AFE
-P 11250 5600
-F 0 "Q21" H 10950 5800 50  0000 L CNN
-F 1 "NJL1302D" H 10750 5700 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-264-5_Horizontal_TabDown" H 11100 6000 50  0001 C CNN
-F 3 "" H 11100 6000 50  0001 C CNN
-	1    11250 5600
-	1    0    0    1   
-$EndComp
-Wire Wire Line
-	10700 5600 11050 5600
 $Comp
 L Leach_lib:NJL1302D Q19
 U 2 1 6030D30F
@@ -2256,7 +2110,7 @@ U 1 1 600E9D11
 P 11950 1450
 F 0 "F1" V 11753 1450 50  0000 C CNN
 F 1 "Fuse" V 11844 1450 50  0000 C CNN
-F 2 "Fuse:Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open" V 11880 1450 50  0001 C CNN
+F 2 "Fuse_Holders_and_Fuses:Fuseholder5x20_horiz_SemiClosed_Casing10x25mm" V 11880 1450 50  0001 C CNN
 F 3 "~" H 11950 1450 50  0001 C CNN
 	1    11950 1450
 	0    1    1    0   
@@ -2272,7 +2126,7 @@ U 1 1 6017FCD7
 P 12150 7150
 F 0 "F2" V 11953 7150 50  0000 C CNN
 F 1 "Fuse" V 12044 7150 50  0000 C CNN
-F 2 "Fuse:Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open" V 12080 7150 50  0001 C CNN
+F 2 "Fuse_Holders_and_Fuses:Fuseholder5x20_horiz_SemiClosed_Casing10x25mm" V 12080 7150 50  0001 C CNN
 F 3 "~" H 12150 7150 50  0001 C CNN
 	1    12150 7150
 	0    1    1    0   
@@ -2395,8 +2249,8 @@ $Comp
 L Transistor_BJT:BC546 Q1
 U 1 1 60058AD5
 P 3000 3300
-F 0 "Q1" H 3191 3346 50  0000 L CNN
-F 1 "BC546" H 3191 3255 50  0000 L CNN
+F 0 "Q1" H 2800 3450 50  0000 L CNN
+F 1 "BC546" H 2650 3350 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 3200 3225 50  0001 L CIN
 F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 3000 3300 50  0001 L CNN
 	1    3000 3300
@@ -2406,8 +2260,8 @@ $Comp
 L Transistor_BJT:BC546 Q2
 U 1 1 6005A326
 P 3600 3300
-F 0 "Q2" H 3791 3346 50  0000 L CNN
-F 1 "BC546" H 3791 3255 50  0000 L CNN
+F 0 "Q2" H 3400 3350 50  0000 L CNN
+F 1 "BC546" H 3400 3450 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 3800 3225 50  0001 L CIN
 F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 3600 3300 50  0001 L CNN
 	1    3600 3300
@@ -2490,4 +2344,184 @@ F 3 "http://pdf.datasheetcatalog.com/datasheet/sanyo/ds_pdf_e/2SB631.pdf" H 5850
 	1    5850 2650
 	1    0    0    1   
 $EndComp
+Wire Wire Line
+	5950 3100 5950 3800
+Wire Wire Line
+	5450 3950 5450 3800
+Wire Wire Line
+	5450 3800 5950 3800
+Connection ~ 5950 3800
+Wire Wire Line
+	5950 3800 5950 4150
+Wire Wire Line
+	5450 4250 5450 4400
+Connection ~ 5450 4400
+Wire Wire Line
+	5750 4750 5750 4650
+Wire Wire Line
+	5750 4650 5950 4650
+$Comp
+L Transistor_BJT:2N3055 T1
+U 1 1 600AD28A
+P 10300 3100
+F 0 "T1" H 10200 3350 50  0000 L CNN
+F 1 "MJL3281" H 10000 3250 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-264-3_Horizontal_TabDown" H 10500 3025 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/2N3055-D.PDF" H 10300 3100 50  0001 L CNN
+	1    10300 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10100 3100 9950 3100
+$Comp
+L Transistor_BJT:2N3055 T3
+U 1 1 600E7B95
+P 11200 3100
+F 0 "T3" H 11100 3350 50  0000 L CNN
+F 1 "MJL3281" H 10900 3250 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-264-3_Horizontal_TabDown" H 11400 3025 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/2N3055-D.PDF" H 11200 3100 50  0001 L CNN
+	1    11200 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11000 3100 10650 3100
+$Comp
+L Transistor_BJT:MPSA92 T2
+U 1 1 60106461
+P 10300 5600
+F 0 "T2" H 10050 5650 50  0000 L CNN
+F 1 "MJL3201" H 9850 5750 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-264-3_Horizontal_TabDown" H 10500 5525 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/MPSA92-D.PDF" H 10300 5600 50  0001 L CNN
+	1    10300 5600
+	1    0    0    1   
+$EndComp
+$Comp
+L Transistor_BJT:MPSA92 T4
+U 1 1 601226DD
+P 11200 5600
+F 0 "T4" H 10950 5650 50  0000 L CNN
+F 1 "MJL3201" H 10750 5750 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-264-3_Horizontal_TabDown" H 11400 5525 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/MPSA92-D.PDF" H 11200 5600 50  0001 L CNN
+	1    11200 5600
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	11000 5600 10700 5600
+Wire Wire Line
+	10100 5600 9900 5600
+Text GLabel 14400 4200 0    50   Input ~ 0
++VCC
+Text GLabel 14400 3100 0    50   Input ~ 0
+-VCC
+$Comp
+L power:GND #PWR0101
+U 1 1 6026E143
+P 14350 3500
+F 0 "#PWR0101" H 14350 3250 50  0001 C CNN
+F 1 "GND" H 14355 3327 50  0000 C CNN
+F 2 "" H 14350 3500 50  0001 C CNN
+F 3 "" H 14350 3500 50  0001 C CNN
+	1    14350 3500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14400 3100 14500 3100
+Wire Wire Line
+	14550 3200 14500 3200
+Wire Wire Line
+	14500 3200 14500 3100
+Connection ~ 14500 3100
+Wire Wire Line
+	14500 3100 14550 3100
+Wire Wire Line
+	14550 3500 14500 3500
+Wire Wire Line
+	14550 3600 14500 3600
+Wire Wire Line
+	14500 3600 14500 3500
+Connection ~ 14500 3500
+Wire Wire Line
+	14500 3500 14350 3500
+Wire Wire Line
+	14550 4200 14500 4200
+Wire Wire Line
+	14550 4100 14500 4100
+Wire Wire Line
+	14500 4100 14500 4200
+Connection ~ 14500 4200
+Wire Wire Line
+	14500 4200 14400 4200
+Wire Wire Line
+	14550 4550 14500 4550
+Wire Wire Line
+	14550 4450 14500 4450
+Wire Wire Line
+	14500 4450 14500 4550
+Connection ~ 14500 4550
+Wire Wire Line
+	14500 4550 14450 4550
+$Comp
+L Connector:Conn_01x12_Female J1
+U 1 1 60434F01
+P 14750 3600
+F 0 "J1" H 14778 3576 50  0000 L CNN
+F 1 "Conn_01x12_Female" H 14778 3485 50  0000 L CNN
+F 2 "LeachAmp_library:Wago-256-406" H 14750 3600 50  0001 C CNN
+F 3 "~" H 14750 3600 50  0001 C CNN
+	1    14750 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14550 3400 14500 3400
+Wire Wire Line
+	14500 3400 14500 3300
+Connection ~ 14500 3200
+Wire Wire Line
+	14550 3300 14500 3300
+Connection ~ 14500 3300
+Wire Wire Line
+	14500 3300 14500 3200
+Wire Wire Line
+	14550 3800 14500 3800
+Wire Wire Line
+	14500 3800 14500 3700
+Connection ~ 14500 3600
+Wire Wire Line
+	14550 3700 14500 3700
+Connection ~ 14500 3700
+Wire Wire Line
+	14500 3700 14500 3600
+Wire Wire Line
+	14550 3900 14500 3900
+Wire Wire Line
+	14500 3900 14500 4000
+Connection ~ 14500 4100
+Wire Wire Line
+	14550 4000 14500 4000
+Connection ~ 14500 4000
+Wire Wire Line
+	14500 4000 14500 4100
+$Comp
+L Connector:Conn_01x04_Female J2
+U 1 1 6057B074
+P 14750 4550
+F 0 "J2" H 14778 4526 50  0000 L CNN
+F 1 "Conn_01x04_Female" H 14778 4435 50  0000 L CNN
+F 2 "LeachAmp_library:Wago-256-402" H 14750 4550 50  0001 C CNN
+F 3 "~" H 14750 4550 50  0001 C CNN
+	1    14750 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14550 4750 14500 4750
+Wire Wire Line
+	14500 4750 14500 4650
+Wire Wire Line
+	14550 4650 14500 4650
+Connection ~ 14500 4650
+Wire Wire Line
+	14500 4650 14500 4550
 $EndSCHEMATC
