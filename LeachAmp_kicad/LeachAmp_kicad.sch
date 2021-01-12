@@ -569,12 +569,12 @@ Wire Wire Line
 $Comp
 L Transistor_BJT:MPSA42 Q7
 U 1 1 5FE9C58A
-P 5850 4400
-F 0 "Q7" V 5800 4200 50  0000 L CNN
-F 1 "BD139" V 6050 4200 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 6050 4325 50  0001 L CIN
-F 3 "http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF" H 5850 4400 50  0001 L CNN
-	1    5850 4400
+P 6450 8400
+F 0 "Q7" V 6400 8200 50  0000 L CNN
+F 1 "BD139" V 6650 8200 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 6650 8325 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF" H 6450 8400 50  0001 L CNN
+	1    6450 8400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -603,8 +603,6 @@ Wire Wire Line
 	6250 4650 6250 4550
 Wire Wire Line
 	5450 4500 5450 4400
-Wire Wire Line
-	5650 4400 5450 4400
 $Comp
 L Device:R R27
 U 1 1 5FEAE962
@@ -2034,64 +2032,6 @@ F 3 "~" H 5750 4900 50  0001 C CNN
 	1    5750 4900
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Leach_lib:NJL3281D Q18
-U 2 1 601DC0BD
-P 8550 1000
-F 0 "Q18" V 8765 1000 50  0000 C CNN
-F 1 "NJL3281D" V 8674 1000 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-264-5_Horizontal_TabDown" H 8800 0   50  0001 C CNN
-F 3 "" H 8400 1200 50  0001 C CNN
-	2    8550 1000
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Leach_lib:NJL3281D Q20
-U 2 1 6021024D
-P 9050 1000
-F 0 "Q20" V 9265 1000 50  0000 C CNN
-F 1 "NJL3281D" V 9174 1000 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-264-5_Horizontal_TabDown" H 9300 0   50  0001 C CNN
-F 3 "" H 8900 1200 50  0001 C CNN
-	2    9050 1000
-	0    -1   -1   0   
-$EndComp
-Text GLabel 8150 1000 0    50   Input ~ 0
-A
-Text GLabel 10400 1000 2    50   Input ~ 0
-B
-Wire Wire Line
-	8150 1000 8400 1000
-Wire Wire Line
-	8700 1000 8900 1000
-Wire Wire Line
-	10100 1000 10400 1000
-$Comp
-L Leach_lib:NJL1302D Q19
-U 2 1 6030D30F
-P 9500 1000
-F 0 "Q19" V 9715 1000 50  0000 C CNN
-F 1 "NJL1302D" V 9624 1000 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-264-5_Horizontal_TabDown" H 9350 1400 50  0001 C CNN
-F 3 "" H 9350 1400 50  0001 C CNN
-	2    9500 1000
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Leach_lib:NJL1302D Q21
-U 2 1 6030E656
-P 9950 1000
-F 0 "Q21" V 10165 1000 50  0000 C CNN
-F 1 "NJL1302D" V 10074 1000 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-264-5_Horizontal_TabDown" H 9800 1400 50  0001 C CNN
-F 3 "" H 9800 1400 50  0001 C CNN
-	2    9950 1000
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	9650 1000 9800 1000
-Wire Wire Line
-	9200 1000 9350 1000
 Wire Wire Line
 	10400 1450 10850 1450
 Wire Wire Line
@@ -2317,7 +2257,7 @@ U 1 1 6014EAC1
 P 5850 5950
 F 0 "Q13" H 6040 5996 50  0000 L CNN
 F 1 "BF469" H 6040 5905 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-126-3_Horizontal_TabDown" H 6050 5875 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-126-3_Vertical" H 6050 5875 50  0001 L CIN
 F 3 "https://www.pcpaudio.com/pcpfiles/transistores/BF457-8-9.pdf" H 5850 5950 50  0001 L CNN
 	1    5850 5950
 	1    0    0    -1  
@@ -2339,7 +2279,7 @@ U 1 1 601C290B
 P 5850 2650
 F 0 "Q12" H 6040 2604 50  0000 L CNN
 F 1 "BF470" H 6040 2695 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-126-3_Horizontal_TabDown" H 6050 2575 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-126-3_Vertical" H 6050 2575 50  0001 L CIN
 F 3 "http://pdf.datasheetcatalog.com/datasheet/sanyo/ds_pdf_e/2SB631.pdf" H 5850 2650 50  0001 L CNN
 	1    5850 2650
 	1    0    0    1   
@@ -2524,4 +2464,25 @@ Wire Wire Line
 Connection ~ 14500 4650
 Wire Wire Line
 	14500 4650 14500 4550
+$Comp
+L Connector:Conn_01x03_Female J4
+U 1 1 5FFA5831
+P 6100 4400
+F 0 "J4" H 5992 4075 50  0000 C CNN
+F 1 "Conn_01x03_Female" V 5850 4550 50  0000 C CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical" H 6100 4400 50  0001 C CNN
+F 3 "~" H 6100 4400 50  0001 C CNN
+	1    6100 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 4400 5900 4400
+Wire Wire Line
+	5950 4600 5900 4600
+Wire Wire Line
+	5900 4600 5900 4500
+Wire Wire Line
+	5900 4300 5900 4200
+Wire Wire Line
+	5900 4200 5950 4200
 $EndSCHEMATC

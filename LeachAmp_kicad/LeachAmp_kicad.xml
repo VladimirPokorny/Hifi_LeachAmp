@@ -1,0 +1,1690 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>D:\Disk Google\#PROJEKTY-COPY\Zesilovac\Hifi_LeachAmp\LeachAmp_kicad\LeachAmp_kicad.sch</source>
+    <date>10.01.2021 13:45:45</date>
+    <tool>Eeschema (5.1.5)-3</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>LeachAmp_kicad.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="R1">
+      <value>22k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FDB6B63</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>2k2</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FDB8F96</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>300R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FDB8FB4</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>300R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FDBC211</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>300R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FDC52FE</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>1k2</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FDC7331</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>2k2</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FDC7CCC</tstamp>
+    </comp>
+    <comp ref="D13">
+      <value>20V/0,5W</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FDC9629</tstamp>
+    </comp>
+    <comp ref="D14">
+      <value>20V/0,5W</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FDCB012</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>300R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FDCD2A4</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>300R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FDE606B</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>300R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FDE6071</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>300R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FDE6086</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>1k2</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FDE6093</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>2k2</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FDE6099</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>300R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FDE60B6</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>12k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE08C2D</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>12k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE099C9</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100n/100V film</value>
+      <footprint>Capacitor_THT:C_Rect_L10.3mm_W5.7mm_P7.50mm_MKS4</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE4CAE6</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>1k1</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE5692B</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>1k1</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE574AA</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>30R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE715F5</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>360R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE71C08</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>10p</value>
+      <footprint>Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE74B91</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>180p</value>
+      <footprint>Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE82ABE</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>8k2</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE8C359</tstamp>
+    </comp>
+    <comp ref="Q7">
+      <value>BD139</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="MPSA42" description="0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE9C58A</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>100n/50V film</value>
+      <footprint>Capacitor_THT:C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEA0699</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>1k2</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEAE962</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>270R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEB89E2</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>30R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEF06AD</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>360R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEF06B3</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>10p</value>
+      <footprint>Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEF06B9</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>100u/63V</value>
+      <footprint>Capacitor_THT:CP_Radial_D12.5mm_P7.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FF36EB3</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>100n/100V film</value>
+      <footprint>Capacitor_THT:C_Rect_L10.3mm_W5.7mm_P7.50mm_MKS4</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FF37A63</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>100u/63V</value>
+      <footprint>Capacitor_THT:CP_Radial_D12.5mm_P7.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FF380E6</tstamp>
+    </comp>
+    <comp ref="C6A1">
+      <value>330u/16V</value>
+      <footprint>Capacitor_THT:CP_Radial_D10.0mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FF5C5CF</tstamp>
+    </comp>
+    <comp ref="C6B1">
+      <value>330u/16V</value>
+      <footprint>Capacitor_THT:CP_Radial_D10.0mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FF5D4E4</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>100n/50V film</value>
+      <footprint>Capacitor_THT:C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FF6259B</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>100u/63V</value>
+      <footprint>Capacitor_THT:CP_Radial_D12.5mm_P7.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FF94F3B</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>100n/100V film</value>
+      <footprint>Capacitor_THT:C_Rect_L10.3mm_W5.7mm_P7.50mm_MKS4</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FF96538</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>100n/100V</value>
+      <footprint>Capacitor_THT:C_Rect_L10.3mm_W5.7mm_P7.50mm_MKS4</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FFAF815</tstamp>
+    </comp>
+    <comp ref="R32">
+      <value>82R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FFC9371</tstamp>
+    </comp>
+    <comp ref="Q10">
+      <value>MPSA06</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="MPSA42" description="0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FDC056F</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FDC1CAC</tstamp>
+    </comp>
+    <comp ref="Q11">
+      <value>MPSA56</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA92-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="MPSA92" description="0.5A Ic, 300V Vce, PNP High Voltage Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FDDD281</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>270R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FDEC28D</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>100n/50V film</value>
+      <footprint>Capacitor_THT:C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FDEC62A</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>100n/50V film</value>
+      <footprint>Capacitor_THT:C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FDECF2B</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FDED281</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FDEDC58</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE66251</tstamp>
+    </comp>
+    <comp ref="R31">
+      <value>3k9 0,5W</value>
+      <footprint>Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE789B5</tstamp>
+    </comp>
+    <comp ref="Q15">
+      <value>BF470</value>
+      <footprint>Package_TO_SOT_THT:TO-126-3_Horizontal_TabDown</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA92-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="MPSA92" description="0.5A Ic, 300V Vce, PNP High Voltage Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE92B38</tstamp>
+    </comp>
+    <comp ref="R35">
+      <value>330R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEA595F</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>3k9 0,5W</value>
+      <footprint>Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEAF34E</tstamp>
+    </comp>
+    <comp ref="Q14">
+      <value>BF469</value>
+      <footprint>Package_TO_SOT_THT:TO-126-3_Horizontal_TabDown</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="MPSA42" description="0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEAFD83</tstamp>
+    </comp>
+    <comp ref="Q16">
+      <value>MJE15030</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="MPSA42" description="0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEB116D</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEBA843</tstamp>
+    </comp>
+    <comp ref="R34">
+      <value>330R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FF3C60E</tstamp>
+    </comp>
+    <comp ref="R36">
+      <value>220R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FF5117C</tstamp>
+    </comp>
+    <comp ref="R37">
+      <value>680R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FF5178B</tstamp>
+    </comp>
+    <comp ref="R42">
+      <value>10R 0,5 W</value>
+      <footprint>Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE560C2</tstamp>
+    </comp>
+    <comp ref="R33">
+      <value>82R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEA1BE7</tstamp>
+    </comp>
+    <comp ref="R49">
+      <value>10R 2W</value>
+      <footprint>Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEFB151</tstamp>
+    </comp>
+    <comp ref="R38">
+      <value>680R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FF09E8E</tstamp>
+    </comp>
+    <comp ref="R43">
+      <value>10R 0,5W</value>
+      <footprint>Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FFA111C</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>CP</value>
+      <footprint>Capacitor_THT:CP_Radial_D35.0mm_P10.00mm_SnapIn</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FFBAF8C</tstamp>
+    </comp>
+    <comp ref="R41">
+      <value>10R 0,5W</value>
+      <footprint>Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FFD9BA9</tstamp>
+    </comp>
+    <comp ref="R39">
+      <value>680R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600204EE</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>10n/50V film</value>
+      <footprint>Capacitor_THT:C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60020C7C</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>10n/50V film</value>
+      <footprint>Capacitor_THT:C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6003E31F</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>47p</value>
+      <footprint>Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEC4B47</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>22k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600E27CA</tstamp>
+    </comp>
+    <comp ref="R45">
+      <value>0,33R 5W</value>
+      <footprint>Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6013B2D7</tstamp>
+    </comp>
+    <comp ref="R40">
+      <value>680R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6020D46E</tstamp>
+    </comp>
+    <comp ref="D12">
+      <value>1N4007</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>603057D9</tstamp>
+    </comp>
+    <comp ref="D11">
+      <value>1N4007</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60306A18</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>CP</value>
+      <footprint>Capacitor_THT:CP_Radial_D35.0mm_P10.00mm_SnapIn</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6036A9E8</tstamp>
+    </comp>
+    <comp ref="R51">
+      <value>82R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>604B5D3A</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>390pF</value>
+      <footprint>Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>604E513F</tstamp>
+    </comp>
+    <comp ref="D16">
+      <value>20V/0,5W</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6062B7FF</tstamp>
+    </comp>
+    <comp ref="D15">
+      <value>20V/0,5W</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>605FDDE8</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>100u/63V</value>
+      <footprint>Capacitor_THT:CP_Radial_D12.5mm_P7.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FFAED3B</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE77189</tstamp>
+    </comp>
+    <comp ref="Q17">
+      <value>MJE15031</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA92-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="MPSA92" description="0.5A Ic, 300V Vce, PNP High Voltage Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEA4EFE</tstamp>
+    </comp>
+    <comp ref="R46">
+      <value>0,33R 5W</value>
+      <footprint>Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6013AB44</tstamp>
+    </comp>
+    <comp ref="R47">
+      <value>0,33R 5W</value>
+      <footprint>Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FF4E74D</tstamp>
+    </comp>
+    <comp ref="R44">
+      <value>10R 0,5W</value>
+      <footprint>Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE56339</tstamp>
+    </comp>
+    <comp ref="R48">
+      <value>0,33R 5W</value>
+      <footprint>Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FF0A622</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>11k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE8344C</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>100n/100V film</value>
+      <footprint>Capacitor_THT:C_Rect_L10.3mm_W5.7mm_P7.50mm_MKS4</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6084863C</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>100n/100V film</value>
+      <footprint>Capacitor_THT:C_Rect_L10.3mm_W5.7mm_P7.50mm_MKS4</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608A59F6</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>CP</value>
+      <footprint>Capacitor_THT:CP_Radial_D35.0mm_P10.00mm_SnapIn</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6091829C</tstamp>
+    </comp>
+    <comp ref="C26">
+      <value>CP</value>
+      <footprint>Capacitor_THT:CP_Radial_D35.0mm_P10.00mm_SnapIn</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>609480A3</tstamp>
+    </comp>
+    <comp ref="RV1">
+      <value>2k</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3266W_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT_TRIM" description="Trim-potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEAFA65</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>Fuse</value>
+      <footprint>Fuse_Holders_and_Fuses:Fuseholder5x20_horiz_SemiClosed_Casing10x25mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600E9D11</tstamp>
+    </comp>
+    <comp ref="F2">
+      <value>Fuse</value>
+      <footprint>Fuse_Holders_and_Fuses:Fuseholder5x20_horiz_SemiClosed_Casing10x25mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6017FCD7</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>100n/100V film</value>
+      <footprint>Capacitor_THT:C_Rect_L10.3mm_W5.7mm_P7.50mm_MKS4</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FF3919F</tstamp>
+    </comp>
+    <comp ref="C27">
+      <value>100n/100V film</value>
+      <footprint>Capacitor_THT:C_Rect_L10.3mm_W5.7mm_P7.50mm_MKS4</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FF5284E</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x03_Female</value>
+      <footprint>Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x03_Female" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FFBE87D</tstamp>
+    </comp>
+    <comp ref="Q5">
+      <value>BC546</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.fairchildsemi.com/ds/BC/BC547.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BC546" description="0.1A Ic, 65V Vce, Small Signal NPN Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60056E50</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>BC546</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.fairchildsemi.com/ds/BC/BC547.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BC546" description="0.1A Ic, 65V Vce, Small Signal NPN Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60058AD5</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>BC546</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.fairchildsemi.com/ds/BC/BC547.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BC546" description="0.1A Ic, 65V Vce, Small Signal NPN Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6005A326</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>BC556</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.fairchildsemi.com/ds/BC/BC557.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BC556" description="0.1A Ic, 65V Vce, PNP Small Signal Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600DADEE</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>BC556</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.fairchildsemi.com/ds/BC/BC557.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BC556" description="0.1A Ic, 65V Vce, PNP Small Signal Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600F65FE</tstamp>
+    </comp>
+    <comp ref="Q6">
+      <value>BC556</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.fairchildsemi.com/ds/BC/BC557.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BC556" description="0.1A Ic, 65V Vce, PNP Small Signal Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600F71D3</tstamp>
+    </comp>
+    <comp ref="Q9">
+      <value>BC546</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.fairchildsemi.com/ds/BC/BC547.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BC546" description="0.1A Ic, 65V Vce, Small Signal NPN Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6014C160</tstamp>
+    </comp>
+    <comp ref="Q13">
+      <value>BF469</value>
+      <footprint>Package_TO_SOT_THT:TO-126-3_Vertical</footprint>
+      <datasheet>https://www.pcpaudio.com/pcpfiles/transistores/BF457-8-9.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BF459" description="0.1A Ic, 300V Vce, High Voltage NPN Transistor, TO-126"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6014EAC1</tstamp>
+    </comp>
+    <comp ref="Q8">
+      <value>BC556</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.fairchildsemi.com/ds/BC/BC557.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BC556" description="0.1A Ic, 65V Vce, PNP Small Signal Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60188790</tstamp>
+    </comp>
+    <comp ref="Q12">
+      <value>BF470</value>
+      <footprint>Package_TO_SOT_THT:TO-126-3_Vertical</footprint>
+      <datasheet>http://pdf.datasheetcatalog.com/datasheet/sanyo/ds_pdf_e/2SB631.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="2SB631" description="-1A Ic, -100V Vce, High Voltage Power PNP Transistor, TO-126"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601C290B</tstamp>
+    </comp>
+    <comp ref="T1">
+      <value>MJL3281</value>
+      <footprint>Package_TO_SOT_THT:TO-264-3_Horizontal_TabDown</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/2N3055-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="2N3055" description="15A Ic, 60V Vce, Power NPN Transistor, TO-3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600AD28A</tstamp>
+    </comp>
+    <comp ref="T3">
+      <value>MJL3281</value>
+      <footprint>Package_TO_SOT_THT:TO-264-3_Horizontal_TabDown</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/2N3055-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="2N3055" description="15A Ic, 60V Vce, Power NPN Transistor, TO-3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600E7B95</tstamp>
+    </comp>
+    <comp ref="T2">
+      <value>MJL3201</value>
+      <footprint>Package_TO_SOT_THT:TO-264-3_Horizontal_TabDown</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA92-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="MPSA92" description="0.5A Ic, 300V Vce, PNP High Voltage Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60106461</tstamp>
+    </comp>
+    <comp ref="T4">
+      <value>MJL3201</value>
+      <footprint>Package_TO_SOT_THT:TO-264-3_Horizontal_TabDown</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA92-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="MPSA92" description="0.5A Ic, 300V Vce, PNP High Voltage Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601226DD</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x12_Female</value>
+      <footprint>LeachAmp_library:Wago-256-406</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x12_Female" description="Generic connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60434F01</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x04_Female</value>
+      <footprint>LeachAmp_library:Wago-256-402</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6057B074</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x03_Female</value>
+      <footprint>Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x03_Female" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FFA5831</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x03_Female">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x04_Female">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x12_Female">
+      <description>Generic connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x12_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Zener">
+      <description>Zener diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Zener</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Fuse">
+      <description>Fuse</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*Fuse*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_POT_TRIM">
+      <description>Trim-potentiometer</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_POT_TRIM</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="2N3055">
+      <description>15A Ic, 60V Vce, Power NPN Transistor, TO-3</description>
+      <docs>http://www.onsemi.com/pub_link/Collateral/2N3055-D.PDF</docs>
+      <footprints>
+        <fp>TO?3*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">2N3055</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="2SB631">
+      <description>-1A Ic, -100V Vce, High Voltage Power PNP Transistor, TO-126</description>
+      <docs>http://pdf.datasheetcatalog.com/datasheet/sanyo/ds_pdf_e/2SB631.pdf</docs>
+      <footprints>
+        <fp>TO?126*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">2SB631</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-126-3_Vertical</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="B" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="BC547">
+      <aliases>
+        <alias>BC546</alias>
+        <alias>BC548</alias>
+        <alias>BC549</alias>
+        <alias>BC550</alias>
+        <alias>BC337</alias>
+        <alias>BC338</alias>
+      </aliases>
+      <description>0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92</description>
+      <docs>http://www.fairchildsemi.com/ds/BC/BC547.pdf</docs>
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BC547</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C" type="passive"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="BC557">
+      <aliases>
+        <alias>BC556</alias>
+        <alias>BC558</alias>
+        <alias>BC559</alias>
+        <alias>BC560</alias>
+        <alias>BC327</alias>
+        <alias>BC328</alias>
+      </aliases>
+      <description>0.1A Ic, 45V Vce, PNP Small Signal Transistor, TO-92</description>
+      <docs>http://www.fairchildsemi.com/ds/BC/BC557.pdf</docs>
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BC557</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C" type="passive"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="BF457">
+      <aliases>
+        <alias>BF458</alias>
+        <alias>BF459</alias>
+      </aliases>
+      <description>0.1A Ic, 160V Vce, High Voltage NPN Transistor, TO-126</description>
+      <docs>https://www.pcpaudio.com/pcpfiles/transistores/BF457-8-9.pdf</docs>
+      <footprints>
+        <fp>TO?126*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BF457</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-126-3_Vertical</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="B" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="MPSA42">
+      <description>0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92</description>
+      <docs>http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF</docs>
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">MPSA42</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="MPSA92">
+      <description>0.5A Ic, 300V Vce, PNP High Voltage Transistor, TO-92</description>
+      <docs>http://www.onsemi.com/pub_link/Collateral/MPSA92-D.PDF</docs>
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">MPSA92</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="pspice" part="DIODE">
+      <description>Diode symbol for simulation only. Pin order incompatible with official kicad footprints</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">DIODE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="input"/>
+        <pin num="2" name="A" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Transistor_BJT.lib</uri>
+    </library>
+    <library logical="pspice">
+      <uri>C:\Program Files\KiCad\share\kicad\library/pspice.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(C19-Pad1)">
+      <node ref="R47" pin="2"/>
+      <node ref="T3" pin="2"/>
+      <node ref="C19" pin="1"/>
+      <node ref="R39" pin="1"/>
+    </net>
+    <net code="2" name="Net-(C20-Pad2)">
+      <node ref="T4" pin="1"/>
+      <node ref="C20" pin="2"/>
+      <node ref="R48" pin="1"/>
+      <node ref="R40" pin="2"/>
+    </net>
+    <net code="3" name="Net-(D15-Pad1)">
+      <node ref="D15" pin="1"/>
+      <node ref="D16" pin="2"/>
+    </net>
+    <net code="4" name="Net-(Q15-Pad1)">
+      <node ref="Q17" pin="2"/>
+      <node ref="Q15" pin="1"/>
+      <node ref="R35" pin="2"/>
+    </net>
+    <net code="5" name="Net-(R38-Pad1)">
+      <node ref="R46" pin="1"/>
+      <node ref="R38" pin="1"/>
+      <node ref="T2" pin="1"/>
+    </net>
+    <net code="6" name="GND">
+      <node ref="C25" pin="1"/>
+      <node ref="C23" pin="1"/>
+      <node ref="C24" pin="2"/>
+      <node ref="C21" pin="2"/>
+      <node ref="C26" pin="2"/>
+      <node ref="C6" pin="1"/>
+      <node ref="C27" pin="1"/>
+      <node ref="J1" pin="7"/>
+      <node ref="J1" pin="5"/>
+      <node ref="J1" pin="6"/>
+      <node ref="J1" pin="8"/>
+      <node ref="C15" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C16" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="R31" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="D16" pin="1"/>
+      <node ref="R30" pin="1"/>
+      <node ref="C14" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="R51" pin="1"/>
+      <node ref="C22" pin="1"/>
+      <node ref="D14" pin="2"/>
+    </net>
+    <net code="7" name="GNDS">
+      <node ref="R1" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C6B1" pin="1"/>
+      <node ref="J3" pin="3"/>
+      <node ref="J3" pin="1"/>
+      <node ref="C8" pin="2"/>
+      <node ref="R51" pin="2"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="8" name="Net-(Q17-Pad1)">
+      <node ref="R42" pin="1"/>
+      <node ref="R44" pin="1"/>
+      <node ref="Q17" pin="1"/>
+      <node ref="R36" pin="2"/>
+    </net>
+    <net code="9" name="Net-(R42-Pad2)">
+      <node ref="R42" pin="2"/>
+      <node ref="T2" pin="2"/>
+    </net>
+    <net code="10" name="Net-(R37-Pad1)">
+      <node ref="T1" pin="2"/>
+      <node ref="R45" pin="2"/>
+      <node ref="R37" pin="1"/>
+    </net>
+    <net code="11" name="Net-(Q16-Pad1)">
+      <node ref="Q16" pin="1"/>
+      <node ref="R36" pin="1"/>
+      <node ref="R41" pin="1"/>
+      <node ref="R43" pin="1"/>
+    </net>
+    <net code="12" name="Net-(C9-Pad2)">
+      <node ref="C9" pin="2"/>
+      <node ref="R20" pin="2"/>
+    </net>
+    <net code="13" name="Net-(R44-Pad2)">
+      <node ref="T4" pin="2"/>
+      <node ref="R44" pin="2"/>
+    </net>
+    <net code="14" name="Net-(Q12-Pad1)">
+      <node ref="Q12" pin="1"/>
+      <node ref="R23" pin="2"/>
+    </net>
+    <net code="15" name="Net-(R41-Pad2)">
+      <node ref="T1" pin="1"/>
+      <node ref="R41" pin="2"/>
+    </net>
+    <net code="16" name="Net-(R43-Pad2)">
+      <node ref="T3" pin="1"/>
+      <node ref="R43" pin="2"/>
+    </net>
+    <net code="17" name="+VCC">
+      <node ref="F1" pin="1"/>
+      <node ref="C26" pin="1"/>
+      <node ref="C21" pin="1"/>
+      <node ref="J1" pin="9"/>
+      <node ref="J1" pin="10"/>
+      <node ref="J1" pin="11"/>
+      <node ref="J1" pin="12"/>
+    </net>
+    <net code="18" name="Net-(J4-Pad2)">
+      <node ref="J4" pin="2"/>
+      <node ref="R27" pin="1"/>
+      <node ref="R25" pin="1"/>
+    </net>
+    <net code="19" name="-VCC">
+      <node ref="J1" pin="4"/>
+      <node ref="J1" pin="3"/>
+      <node ref="J1" pin="2"/>
+      <node ref="F2" pin="1"/>
+      <node ref="J1" pin="1"/>
+      <node ref="C25" pin="2"/>
+      <node ref="C22" pin="2"/>
+    </net>
+    <net code="20" name="Net-(C24-Pad1)">
+      <node ref="D12" pin="1"/>
+      <node ref="F2" pin="2"/>
+      <node ref="C24" pin="1"/>
+      <node ref="Q17" pin="3"/>
+      <node ref="Q15" pin="3"/>
+      <node ref="C27" pin="2"/>
+      <node ref="T2" pin="3"/>
+      <node ref="R33" pin="2"/>
+      <node ref="T4" pin="3"/>
+    </net>
+    <net code="21" name="out">
+      <node ref="J2" pin="3"/>
+      <node ref="J2" pin="4"/>
+      <node ref="J2" pin="2"/>
+      <node ref="J2" pin="1"/>
+      <node ref="D12" pin="2"/>
+      <node ref="R49" pin="1"/>
+      <node ref="D11" pin="1"/>
+    </net>
+    <net code="22" name="Net-(C17-Pad1)">
+      <node ref="R45" pin="1"/>
+      <node ref="R28" pin="2"/>
+      <node ref="R47" pin="1"/>
+      <node ref="D10" pin="2"/>
+      <node ref="Q10" pin="1"/>
+      <node ref="D9" pin="1"/>
+      <node ref="Q11" pin="1"/>
+      <node ref="R48" pin="2"/>
+      <node ref="R17" pin="1"/>
+      <node ref="C18" pin="2"/>
+      <node ref="R46" pin="2"/>
+      <node ref="R29" pin="1"/>
+      <node ref="R49" pin="2"/>
+      <node ref="C17" pin="1"/>
+    </net>
+    <net code="23" name="Net-(Q1-Pad1)">
+      <node ref="Q5" pin="3"/>
+      <node ref="Q1" pin="1"/>
+    </net>
+    <net code="24" name="Net-(C2-Pad2)">
+      <node ref="C2" pin="2"/>
+      <node ref="D13" pin="1"/>
+      <node ref="R13" pin="2"/>
+      <node ref="C4" pin="1"/>
+      <node ref="Q5" pin="2"/>
+      <node ref="R15" pin="1"/>
+      <node ref="Q2" pin="1"/>
+    </net>
+    <net code="25" name="Net-(Q3-Pad2)">
+      <node ref="R5" pin="1"/>
+      <node ref="Q3" pin="2"/>
+    </net>
+    <net code="26" name="Net-(Q3-Pad1)">
+      <node ref="Q6" pin="3"/>
+      <node ref="Q3" pin="1"/>
+    </net>
+    <net code="27" name="Net-(C14-Pad2)">
+      <node ref="R33" pin="1"/>
+      <node ref="C16" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="R14" pin="1"/>
+      <node ref="R12" pin="1"/>
+      <node ref="R22" pin="1"/>
+      <node ref="Q9" pin="3"/>
+    </net>
+    <net code="28" name="Net-(Q8-Pad2)">
+      <node ref="R21" pin="2"/>
+      <node ref="Q8" pin="2"/>
+      <node ref="R23" pin="1"/>
+    </net>
+    <net code="29" name="Net-(C10-Pad2)">
+      <node ref="Q8" pin="1"/>
+      <node ref="Q12" pin="3"/>
+      <node ref="R11" pin="2"/>
+      <node ref="Q5" pin="1"/>
+      <node ref="C10" pin="2"/>
+    </net>
+    <net code="30" name="Net-(C6A1-Pad1)">
+      <node ref="C6A1" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="R19" pin="2"/>
+    </net>
+    <net code="31" name="Net-(C8-Pad1)">
+      <node ref="C8" pin="1"/>
+      <node ref="R17" pin="2"/>
+      <node ref="R18" pin="1"/>
+    </net>
+    <net code="32" name="Net-(R27-Pad2)">
+      <node ref="R27" pin="2"/>
+      <node ref="RV1" pin="1"/>
+    </net>
+    <net code="33" name="Net-(Q9-Pad2)">
+      <node ref="Q9" pin="2"/>
+      <node ref="R22" pin="2"/>
+      <node ref="R24" pin="1"/>
+    </net>
+    <net code="34" name="Net-(Q13-Pad1)">
+      <node ref="Q13" pin="1"/>
+      <node ref="R24" pin="2"/>
+    </net>
+    <net code="35" name="Net-(Q7-Pad1)">
+      <node ref="Q7" pin="1"/>
+    </net>
+    <net code="36" name="Net-(Q7-Pad2)">
+      <node ref="Q7" pin="2"/>
+    </net>
+    <net code="37" name="Net-(Q7-Pad3)">
+      <node ref="Q7" pin="3"/>
+    </net>
+    <net code="38" name="Net-(Q2-Pad2)">
+      <node ref="R4" pin="1"/>
+      <node ref="Q2" pin="2"/>
+    </net>
+    <net code="39" name="Net-(D13-Pad2)">
+      <node ref="D14" pin="1"/>
+      <node ref="D13" pin="2"/>
+    </net>
+    <net code="40" name="Net-(C9-Pad1)">
+      <node ref="R4" pin="2"/>
+      <node ref="R18" pin="2"/>
+      <node ref="R19" pin="1"/>
+      <node ref="R6" pin="2"/>
+      <node ref="C9" pin="1"/>
+    </net>
+    <net code="41" name="Net-(Q3-Pad3)">
+      <node ref="R9" pin="1"/>
+      <node ref="Q3" pin="3"/>
+    </net>
+    <net code="42" name="Net-(Q4-Pad3)">
+      <node ref="Q4" pin="3"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="43" name="Net-(Q1-Pad2)">
+      <node ref="R3" pin="1"/>
+      <node ref="Q1" pin="2"/>
+    </net>
+    <net code="44" name="Net-(J3-Pad2)">
+      <node ref="J3" pin="2"/>
+      <node ref="R1" pin="1"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="45" name="Net-(C1-Pad2)">
+      <node ref="R2" pin="2"/>
+      <node ref="R5" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="46" name="Net-(Q1-Pad3)">
+      <node ref="R7" pin="1"/>
+      <node ref="Q1" pin="3"/>
+    </net>
+    <net code="47" name="Net-(C11-Pad2)">
+      <node ref="Q6" pin="1"/>
+      <node ref="Q13" pin="3"/>
+      <node ref="C11" pin="2"/>
+      <node ref="Q9" pin="1"/>
+      <node ref="R12" pin="2"/>
+    </net>
+    <net code="48" name="Net-(Q2-Pad3)">
+      <node ref="Q2" pin="3"/>
+      <node ref="R8" pin="1"/>
+    </net>
+    <net code="49" name="Net-(C3-Pad2)">
+      <node ref="R16" pin="2"/>
+      <node ref="R14" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="Q4" pin="1"/>
+      <node ref="D15" pin="2"/>
+      <node ref="Q6" pin="2"/>
+    </net>
+    <net code="50" name="Net-(Q4-Pad2)">
+      <node ref="R6" pin="1"/>
+      <node ref="Q4" pin="2"/>
+    </net>
+    <net code="51" name="Net-(R10-Pad2)">
+      <node ref="R15" pin="2"/>
+      <node ref="R9" pin="2"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="52" name="Net-(R16-Pad1)">
+      <node ref="R8" pin="2"/>
+      <node ref="R7" pin="2"/>
+      <node ref="R16" pin="1"/>
+    </net>
+    <net code="53" name="Net-(D8-Pad1)">
+      <node ref="D8" pin="1"/>
+      <node ref="Q11" pin="3"/>
+    </net>
+    <net code="54" name="Net-(C18-Pad1)">
+      <node ref="Q11" pin="2"/>
+      <node ref="C20" pin="1"/>
+      <node ref="D10" pin="1"/>
+      <node ref="R38" pin="2"/>
+      <node ref="R29" pin="2"/>
+      <node ref="R40" pin="1"/>
+      <node ref="C18" pin="1"/>
+      <node ref="D6" pin="2"/>
+    </net>
+    <net code="55" name="Net-(D6-Pad1)">
+      <node ref="D6" pin="1"/>
+      <node ref="R31" pin="1"/>
+    </net>
+    <net code="56" name="Net-(R20-Pad1)">
+      <node ref="R20" pin="1"/>
+      <node ref="R34" pin="2"/>
+      <node ref="R35" pin="1"/>
+    </net>
+    <net code="57" name="Net-(Q14-Pad1)">
+      <node ref="R34" pin="1"/>
+      <node ref="Q16" pin="2"/>
+      <node ref="Q14" pin="1"/>
+    </net>
+    <net code="58" name="Net-(C17-Pad2)">
+      <node ref="R37" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="Q10" pin="2"/>
+      <node ref="D5" pin="1"/>
+      <node ref="R39" pin="2"/>
+      <node ref="C19" pin="2"/>
+      <node ref="R28" pin="1"/>
+      <node ref="D9" pin="2"/>
+    </net>
+    <net code="59" name="Net-(D7-Pad2)">
+      <node ref="D7" pin="2"/>
+      <node ref="Q10" pin="3"/>
+    </net>
+    <net code="60" name="Net-(C23-Pad2)">
+      <node ref="C23" pin="2"/>
+      <node ref="T1" pin="3"/>
+      <node ref="T3" pin="3"/>
+      <node ref="C6" pin="2"/>
+      <node ref="R32" pin="1"/>
+      <node ref="F1" pin="2"/>
+      <node ref="Q14" pin="3"/>
+      <node ref="Q16" pin="3"/>
+      <node ref="D11" pin="2"/>
+    </net>
+    <net code="61" name="Net-(D5-Pad2)">
+      <node ref="R30" pin="2"/>
+      <node ref="D5" pin="2"/>
+    </net>
+    <net code="62" name="Net-(C6A1-Pad2)">
+      <node ref="C6A1" pin="2"/>
+      <node ref="C6B1" pin="2"/>
+    </net>
+    <net code="63" name="Net-(C11-Pad1)">
+      <node ref="Q13" pin="2"/>
+      <node ref="RV1" pin="3"/>
+      <node ref="RV1" pin="2"/>
+      <node ref="D8" pin="2"/>
+      <node ref="Q15" pin="2"/>
+      <node ref="C12" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="J4" pin="3"/>
+    </net>
+    <net code="64" name="Net-(C10-Pad1)">
+      <node ref="D7" pin="1"/>
+      <node ref="J4" pin="1"/>
+      <node ref="Q12" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="R25" pin="2"/>
+      <node ref="Q14" pin="2"/>
+      <node ref="C10" pin="1"/>
+    </net>
+    <net code="65" name="Net-(C13-Pad1)">
+      <node ref="R13" pin="1"/>
+      <node ref="R11" pin="1"/>
+      <node ref="C13" pin="1"/>
+      <node ref="C15" pin="1"/>
+      <node ref="Q8" pin="3"/>
+      <node ref="R21" pin="1"/>
+      <node ref="R32" pin="2"/>
+    </net>
+  </nets>
+</export>
