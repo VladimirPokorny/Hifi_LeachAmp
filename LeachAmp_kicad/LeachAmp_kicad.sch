@@ -1136,7 +1136,7 @@ Wire Wire Line
 Wire Wire Line
 	7950 7500 7950 7300
 $Comp
-L Transistor_BJT:MPSA92 Q15
+L Transistor_BJT:2SB631 Q15
 U 1 1 5FE92B38
 P 9150 6450
 F 0 "Q15" H 8900 6500 50  0000 L CNN
@@ -1180,7 +1180,7 @@ F 3 "http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF" H 9150 3950 50  000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_BJT:MPSA42 Q16
+L Transistor_BJT:BCX56 Q16
 U 1 1 5FEB116D
 P 9850 3950
 F 0 "Q16" H 9650 4200 50  0000 L CNN
@@ -1866,7 +1866,7 @@ F 3 "~" H 7950 6750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Transistor_BJT:MPSA92 Q17
+L Transistor_BJT:PBSS301PZ Q17
 U 1 1 5FEA4EFE
 P 9850 6450
 F 0 "Q17" H 9600 6500 50  0000 L CNN
@@ -2301,7 +2301,7 @@ Wire Wire Line
 Wire Wire Line
 	6200 5500 6400 5500
 $Comp
-L Transistor_BJT:2N3055 T1
+L Transistor_BJT:BCX56 T1
 U 1 1 600AD28A
 P 10750 3950
 F 0 "T1" H 10650 4200 50  0000 L CNN
@@ -2314,7 +2314,7 @@ $EndComp
 Wire Wire Line
 	10550 3950 10400 3950
 $Comp
-L Transistor_BJT:2N3055 T3
+L Transistor_BJT:BCX56 T3
 U 1 1 600E7B95
 P 11650 3950
 F 0 "T3" H 11550 4200 50  0000 L CNN
@@ -2327,7 +2327,7 @@ $EndComp
 Wire Wire Line
 	11450 3950 11100 3950
 $Comp
-L Transistor_BJT:MPSA92 T2
+L Transistor_BJT:PBSS301PZ T2
 U 1 1 60106461
 P 10750 6450
 F 0 "T2" H 10500 6500 50  0000 L CNN
@@ -2338,7 +2338,7 @@ F 3 "http://www.onsemi.com/pub_link/Collateral/MPSA92-D.PDF" H 10750 6450 50  00
 	1    0    0    1   
 $EndComp
 $Comp
-L Transistor_BJT:MPSA92 T4
+L Transistor_BJT:PBSS301PZ T4
 U 1 1 601226DD
 P 11650 6450
 F 0 "T4" H 11400 6500 50  0000 L CNN
@@ -2486,10 +2486,10 @@ Wire Wire Line
 Wire Wire Line
 	6350 5050 6400 5050
 $Comp
-L Connector:Conn_01x03_Female J?
+L Connector:Conn_01x03_Female J5
 U 1 1 6004D92D
 P 6350 9250
-F 0 "J?" H 6242 8925 50  0000 C CNN
+F 0 "J5" H 6242 8925 50  0000 C CNN
 F 1 "Conn_01x03_Female" V 6400 9250 50  0000 C CNN
 F 2 "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical" H 6350 9250 50  0001 C CNN
 F 3 "~" H 6350 9250 50  0001 C CNN
