@@ -1,0 +1,24 @@
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(5.1.5)-3*
+G04 #@! TF.CreationDate,2021-05-07T14:02:41+02:00*
+G04 #@! TF.ProjectId,LeachAmp_kicad,4c656163-6841-46d7-905f-6b696361642e,rev?*
+G04 #@! TF.SameCoordinates,Original*
+G04 #@! TF.FileFunction,Legend,Bot*
+G04 #@! TF.FilePolarity,Positive*
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW (5.1.5)-3) date 2021-05-07 14:02:41*
+%MOMM*%
+%LPD*%
+G04 APERTURE LIST*
+%ADD10C,0.152400*%
+G04 APERTURE END LIST*
+D10*
+X231298000Y-98439356D02*
+G75*
+G03X231298000Y-98439356I-381000J0D01*
+G01*
+X246839000Y-108387256D02*
+G75*
+G03X246839000Y-108387256I-381000J0D01*
+G01*
+M02*
