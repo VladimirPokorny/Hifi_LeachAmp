@@ -1,0 +1,124 @@
+Source:;C:\Users\Pokor\OneDrive\Documents\KiCad\Hifi_LeachAmp\LeachAmp_kicad\LeachAmp_kicad.sch;
+Date:;07.05.2021 14:27;
+Tool:;Eeschema (5.1.5)-3;
+Component Count:;119;
+Ref;Value;Footprint
+C1;390pF;Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm
+C2;100n/100V film;Capacitor_THT:C_Rect_L10.3mm_W5.7mm_P7.50mm_MKS4
+C3;100n/100V film;Capacitor_THT:C_Rect_L10.3mm_W5.7mm_P7.50mm_MKS4
+C4;100u/63V;Capacitor_THT:CP_Radial_D12.5mm_P7.50mm
+C5;100u/63V;Capacitor_THT:CP_Radial_D12.5mm_P7.50mm
+C6;100n/100V film;Capacitor_THT:C_Rect_L10.3mm_W5.7mm_P7.50mm_MKS4
+C6A1;330u/16V;Capacitor_THT:CP_Radial_D10.0mm_P5.00mm
+C6B1;330u/16V;Capacitor_THT:CP_Radial_D10.0mm_P5.00mm
+C7;100n/50V film;Capacitor_THT:C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2
+C8;180p;Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm
+C9;47p;Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm
+C10;10p;Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm
+C11;10p;Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm
+C12;100n/50V film;Capacitor_THT:C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2
+C13;100u/63V;Capacitor_THT:CP_Radial_D12.5mm_P7.50mm
+C14;100u/63V;Capacitor_THT:CP_Radial_D12.5mm_P7.50mm
+C15;100n/100V;Capacitor_THT:C_Rect_L10.3mm_W5.7mm_P7.50mm_MKS4
+C16;100n/100V film;Capacitor_THT:C_Rect_L10.3mm_W5.7mm_P7.50mm_MKS4
+C17;100n/50V film;Capacitor_THT:C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2
+C18;100n/50V film;Capacitor_THT:C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2
+C19;10n/50V film;Capacitor_THT:C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2
+C20;10n/50V film;Capacitor_THT:C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2
+C21;CP;Capacitor_THT:CP_Radial_D35.0mm_P10.00mm_SnapIn
+C22;CP;Capacitor_THT:CP_Radial_D35.0mm_P10.00mm_SnapIn
+C23;100n/100V film;Capacitor_THT:C_Rect_L10.3mm_W5.7mm_P7.50mm_MKS4
+C24;100n/100V film;Capacitor_THT:C_Rect_L10.3mm_W5.7mm_P7.50mm_MKS4
+C25;CP;Capacitor_THT:CP_Radial_D35.0mm_P10.00mm_SnapIn
+C26;CP;Capacitor_THT:CP_Radial_D35.0mm_P10.00mm_SnapIn
+C27;100n/100V film;Capacitor_THT:C_Rect_L10.3mm_W5.7mm_P7.50mm_MKS4
+D5;1N4148;Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal
+D6;1N4148;Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal
+D7;1N4148;Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal
+D8;1N4148;Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal
+D9;1N4148;Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal
+D10;1N4148;Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal
+D11;1N4007;Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal
+D12;1N4007;Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal
+D13;20V/0,5W;Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal
+D14;20V/0,5W;Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal
+D15;20V/0,5W;Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal
+D16;20V/0,5W;Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal
+F1;Fuse;Fuse_Holders_and_Fuses:Fuseholder5x20_horiz_SemiClosed_Casing10x25mm
+F2;Fuse;Fuse_Holders_and_Fuses:Fuseholder5x20_horiz_SemiClosed_Casing10x25mm
+J1;Conn_01x12_Female;LeachAmp_library:Wago-256-406
+J2;Conn_01x04_Female;LeachAmp_library:Wago-256-402
+J3;Conn_01x03_Female;Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical
+J4;Conn_01x03_Female;Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical
+J5;Conn_01x03_Female;Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical
+Q1;BC546;Package_TO_SOT_THT:TO-92_Inline
+Q2;BC546;Package_TO_SOT_THT:TO-92_Inline
+Q3;BC556;Package_TO_SOT_THT:TO-92_Inline
+Q4;BC556;Package_TO_SOT_THT:TO-92_Inline
+Q5;BC546;Package_TO_SOT_THT:TO-92_Inline
+Q6;BC556;Package_TO_SOT_THT:TO-92_Inline
+Q7;BD139;Package_TO_SOT_THT:TO-92_Inline
+Q8;BC556;Package_TO_SOT_THT:TO-92_Inline
+Q9;BC546;Package_TO_SOT_THT:TO-92_Inline
+Q10;MPSA06;Package_TO_SOT_THT:TO-92_Inline
+Q11;MPSA56;Package_TO_SOT_THT:TO-92_Inline
+Q12;BF470;Package_TO_SOT_THT:TO-126-3_Vertical
+Q13;BF469;Package_TO_SOT_THT:TO-126-3_Vertical
+Q14;BF469;Package_TO_SOT_THT:TO-126-3_Horizontal_TabDown
+Q15;BF470;Package_TO_SOT_THT:TO-126-3_Horizontal_TabDown
+Q16;MJE15030;Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown
+Q17;MJE15031;Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown
+R1;22k;Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+R2;2k2;Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+R3;300R;Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+R4;300R;Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+R5;300R;Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+R6;300R;Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+R7;300R;Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+R8;300R;Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+R9;300R;Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+R10;300R;Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+R11;1k2;Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+R12;1k2;Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+R13;2k2;Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+R14;2k2;Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+R15;12k;Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+R16;12k;Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+R17;11k;Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+R18;1k1;Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+R19;1k1;Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+R20;22k;Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+R21;30R;Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+R22;30R;Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+R23;360R;Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+R24;360R;Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+R25;8k2;Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+R27;1k2;Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+R28;270R;Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+R29;270R;Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+R30;3k9 0,5W;Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal
+R31;3k9 0,5W;Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal
+R32;82R;Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+R33;82R;Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+R34;330R;Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+R35;330R;Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+R36;220R;Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+R37;680R;Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+R38;680R;Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+R39;680R;Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+R40;680R;Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+R41;10R 0,5W;Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal
+R42;10R 0,5 W;Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal
+R43;10R 0,5W;Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal
+R44;10R 0,5W;Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal
+R45;0,33R 5W;Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal
+R46;0,33R 5W;Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal
+R47;0,33R 5W;Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal
+R48;0,33R 5W;Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal
+R49;10R 2W;Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal
+R51;82R;Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+RV1;2k;Potentiometer_THT:Potentiometer_Bourns_3266W_Vertical
+T1;MJL3281;Package_TO_SOT_THT:TO-264-3_Horizontal_TabDown
+T2;MJL3201;Package_TO_SOT_THT:TO-264-3_Horizontal_TabDown
+T3;MJL3281;Package_TO_SOT_THT:TO-264-3_Horizontal_TabDown
+T4;MJL3201;Package_TO_SOT_THT:TO-264-3_Horizontal_TabDown
